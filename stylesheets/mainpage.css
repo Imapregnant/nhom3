@@ -1,0 +1,131 @@
+body {
+    margin: 0px;
+}
+
+.first-header {
+    height: 50px;
+    width: 100%;
+    display: flex;
+    background: rgba(255, 255, 255, 0.5);
+    backdrop-filter: blur(9px);
+    position: fixed;
+    top: 0;
+    z-index: 1000;
+}
+
+.first-container {
+    width: max(50%);
+    display: flex;
+    align-items: center;
+}
+
+.logo-text {
+    text-decoration: none;
+    color: black;
+    margin-left: 50px;
+    font: 700 20px "lexend zetta";
+    letter-spacing: -3.5px;
+
+}
+
+.nav-container {
+    position: absolute;
+    right: 0;
+    width: max(50%);
+}
+
+.nav {
+    position: absolute;
+    right: 0;
+    list-style-type: none;
+}
+
+li {
+    float: left;
+}
+
+
+.nav-links {
+    text-decoration: none;
+    color: black;
+    font: 300 15px montserrat;
+    margin-right: 50px;
+}
+
+.nav-links:hover {
+    text-decoration: underline;
+}
+
+.welcome-header {
+    height: 100vh;
+    margin-top: 70px;
+}
+
+.school-pic {
+    padding-top: 70px;
+    display: block;
+    margin-inline: auto;
+    width: 900px;
+    position: relative;
+}
+
+.main-heading {
+    width: 950px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -180%);
+    text-align: center;
+    font: 500 45px 'Dela Gothic One';
+    color: rgb(15, 37, 77);
+    word-spacing: 6px;
+    z-index: 1;
+}
+
+.section {
+    height: 100vh;
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+.right-pic, .left-pic {
+    margin-block: auto;
+    width: 50%;
+}
+
+.right-pic {
+    float: right;
+    margin-right: 50px;
+}
+
+.left-pic {
+    float: left;
+    margin-left: 50px;
+}
+
+.text-container-right, .text-container-left {
+    padding-block: auto;
+    width: 40%;
+    clear: both;
+}
+
+.text-container-right {
+    float: right;
+    margin-right: 50px;
+}
+
+.text-container-left {
+    float: left;
+    margin-left: 50px;
+}
+
+h2 {
+    font: 500 50px 'Dela Gothic One';
+    color:rgb(15, 37, 77);
+}
+
+p {
+    font: 300 15px montserrat;
+    line-height: 28px;
+}
